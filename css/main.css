@@ -1,0 +1,122 @@
+@import url('../css/reset.css');
+
+body {
+    line-height: 1;
+    font-family: 'Roboto';
+    color: rgb(8, 8, 8);
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../font/lato/Lato-Regular.woff2') format('woff2'),
+        url('../font/lato/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../font/lato/Lato-Bold.woff2') format('woff2'),
+        url('../font/lato/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../font/lato/Lato-Black.woff2') format('woff2'),
+        url('../font/lato/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../font/lato/Larsseit-Regular.woff2') format('woff2'),
+        url('../font/lato/Larsseit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../font/lato/Larsseit-Bold.woff2') format('woff2'),
+        url('../font/lato/Larsseit-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.wrapper {
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    min-height: 100%;
+}
+.header {
+    padding: 50px 0px 0px 0px;
+}
+p {
+    line-height: 1.5;
+}
+.header__block {
+    margin: 0px 0px 50px 0px;
+}
+.description {
+    color: red;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.header__title {
+    font-size: 45px;
+}
+.title {
+    color: rgb(16, 16, 16);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Lato';
+}
+.main {
+}
+.main__block {
+}
+.main__title {
+    font-size: 30px;
+    font-family: 'Larsseit';
+    font-weight: bold;
+}
+.main__text {
+    margin: 30px 0px 30px 0px;
+}
+.main__text img{
+    display: block;
+    margin: 15px 0px 15px;
+}
+.text + p {
+    margin-bottom: 15px;
+}
+.main__comments {
+    margin-bottom: 15px;
+    color: rgb(50, 48, 48);
+    font-family: 'Larsseit';
+    font-weight: 400;
+}
+.main__link a{
+    color: rgb(108, 119, 128);
+    display: inline-block;
+}
+.footer {
+    background-color: rgb(2, 2, 38);
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    justify-content: center;
+}
+.copyright {
+    color: #fff;
+}
+.arrow {
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+}
+p.red-color {
+    color: red;
+}
